@@ -15,9 +15,22 @@ This lab includes:
 - Apply hardening and defense improvements
 
 ## Repo Structure
-- `topology/` → diagrams and addressing
-- `setup/` → pfSense, Wazuh, agents, SQL, AD setup
-- `ROADMAP.md` → upgrades and future lab plans
+```
+├── setup/                               # pfSense, Wazuh, agents, SQL, AD setup
+│   ├── ad-dc.md                         # Active Directory Domain Controller setup
+│   ├── pfsense.md                       # pfSense firewall/router configuration
+│   ├── sql-server.md                    # SQL Server 2022 install & vulnerable configs
+│   ├── wazuh.md                         # Wazuh SIEM / Manager setup
+│   └── windows-agents.md                # Windows agents onboarding/config
+│
+├── topology/                            # diagrams and addressing
+│   ├── network-topology.png             # network connectivity diagram
+│   └── ip-plan.md                       # IP addressing plan
+│
+├── Roadmap.md                           # upgrades and future lab plans
+├── README.md                            # project overview
+└── LICENSE                              # license
+```
 
 ## Current Status
 ✅ Wazuh server is running  
