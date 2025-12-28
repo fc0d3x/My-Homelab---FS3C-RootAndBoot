@@ -33,11 +33,14 @@ This lab includes:
 ```
 
 ## Current Status
-✅ Wazuh server is running  
-✅ pfSense is routing the lab network  
+✅ pfSense is routing the lab network
+✅ Internet connectivity works across all VMs
+✅ Active Directory DNS is centralized and working (Forward + Reverse lookup)
+✅ Static IP assignments are persistent (DHCP static mappings + clean routing)
 ✅ SQL Server is set up and accessible
-✅ WebAppDB / LabDB created with tables and sample data  
-✅ Kali can connect and generate alerts in Wazuh
+✅ WebAppDB and LabDB are created with tables and sample data
+✅ Wazuh server is running
+✅ Kali (SOC) can connect and generate alerts in Wazuh
 
 ## Disclaimer
 This lab is for learning offensive and defensive security research in an isolated environment.
